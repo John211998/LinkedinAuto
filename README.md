@@ -1,48 +1,15 @@
-<img src="./assets/linkedin_aihawk.png">
+<img src="assets/Linkedin.png">
 
 <!-- At first glance, the branding and messaging clearly conveys what to expect -->
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/federico-elia-5199951b6/)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:federico.elia.majo@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/datawithjohn/)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](john16stephen.js@gmail.com)
 
 # LinkedIn_AIHawk
 
 #### 🤖🔍 Your AI-powered job search assistant. Automate applications, get personalized recommendations, and land your dream job faster.
 
-</div>
-<br />
-
-<!-- Message Clarity -->
-## 🚀 Join the AIHawk Community 🚀 
-
-Connect with like-minded individuals and get the most out of AIHawk.
-
-💡 **Get support:** Ask questions, troubleshoot issues, and find solutions.
-
-🗣️ **Share knowledge:** Share your experiences, tips, and best practices.
-
-🤝 **Network:** Connect with other professionals and explore new opportunities.
-
-🔔 **Stay updated:** Get the latest news and updates on AIHawk.
-
-<!-- Strong Call to Action -->
-### Join Now 👇
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white
-)](https://t.me/AIhawkCommunity)
-
-
-
-
-<!-- 🚀 **Join Our Telegram Community!** 🚀
-
-Join our **Telegram community** for:
-- **Support with AIHawk software**
-- **Share your experiences** with AIhawk and learn from others
-- **Job search tips** and **resume advice**
-- **Idea exchange** and resources for your projects
-
-📲 **[Join now!](https://t.me/AIhawkCommunity)** -->
 
 ## Table of Contents
 
@@ -60,15 +27,15 @@ Join our **Telegram community** for:
 
 ## Introduction
 
-LinkedIn_AIHawk is a cutting-edge, automated tool designed to revolutionize the job search and application process on LinkedIn. In today's fiercely competitive job market, where opportunities can vanish in the blink of an eye, this program offers job seekers a significant advantage. By leveraging the power of automation and artificial intelligence, LinkedIn_AIHawk enables users to apply to a vast number of relevant positions efficiently and in a personalized manner, maximizing their chances of landing their dream job.
+LinkedIN Automation is a cutting-edge, automated tool designed to revolutionize the job search and application process on LinkedIn. In today's fiercely competitive job market, where opportunities can vanish in the blink of an eye, this program offers job seekers a significant advantage. By leveraging the power of automation and artificial intelligence, LinkedInAuto enables users to apply to a vast number of relevant positions efficiently and in a personalized manner, maximizing their chances of landing their dream job.
 
 ### The Challenge of Modern Job Hunting
 
 In the digital age, the job search landscape has undergone a dramatic transformation. While online platforms like LinkedIn have opened up a world of opportunities, they have also intensified competition. Job seekers often find themselves spending countless hours scrolling through listings, tailoring applications, and repetitively filling out forms. This process can be not only time-consuming but also emotionally draining, leading to job search fatigue and missed opportunities.
 
-### Enter LinkedIn_AIHawk: Your Personal Job Search Assistant
+### Enter LinkedInAuto: Your Personal Job Search Assistant
 
-LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's not just a tool; it's your tireless, 24/7 job search partner. By automating the most time-consuming aspects of the job search process, it allows you to focus on what truly matters - preparing for interviews and developing your professional skills.
+LinkedInAuto steps in as a game-changing solution to these challenges. It's not just a tool; it's your tireless, 24/7 job search partner. By automating the most time-consuming aspects of the job search process, it allows you to focus on what truly matters - preparing for interviews and developing your professional skills.
 
 ## Features
 
@@ -103,11 +70,7 @@ LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's n
 7. **Secure Data Handling**
    - Manages sensitive information securely using YAML files
 
-## Installation
-
-**Please watch this video to set up your LinkedIn_AIHawk: [How to set up LinkedIn_AIHawk](https://youtu.be/gdW9wogHEUM) - https://youtu.be/gdW9wogHEUM**
-0. **Confirmed succesfull runs OSs & Python**: Python 3.10, 3.11.9(64b), 3.12.5(64b) . Windows 10, Ubuntu 22
-1. **Download and Install Python:**
+## Install Python
 
    Ensure you have the last Python version  installed. If not, download and install it from Python's official website. For detailed instructions, refer to the tutorials:
 
@@ -120,8 +83,20 @@ LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's n
 
 3. **Clone the repository:**
    ```bash
-   git clone https://github.com/feder-cr/LinkedIn_AIHawk_automatic_job_application
-   cd LinkedIn_AIHawk_automatic_job_application
+   git clone https://github.com/John211998/LinkedinAuto
+   cd LinkedinAuto
+   Create secrets.yaml in data_folder ------- Step 1
+   Create .env file for Sensitive Info ------- step 2
+   Inside .env
+# Mail=
+# PASSWORD=
+# API_KEY=
+  
+  After configuring step 2 
+  Run get_secrets.py in src
+
+
+  
    ```
 
 4. **Activate virtual environment:**
@@ -150,7 +125,7 @@ This file contains sensitive information. Never share or commit this file to ver
   - Replace with your LinkedIn account password
 - `openai_api_key: [Your OpenAI API key]`
   - Replace with your OpenAI API key for GPT integration
-  - To obtain an API key, follow the tutorial at: https://medium.com/@lorenzozar/how-to-get-your-own-openai-api-key-f4d44e60c327
+  - To obtain an API key, follow the tutorial at: https://youtu.be/OB99E7Y1cMA?si=aKtHhtAcnC2NHnIr
   - Note: You need to add credit to your OpenAI account to use the API. You can add credit by visiting the [OpenAI billing dashboard](https://platform.openai.com/account/billing).
 
 
@@ -234,17 +209,17 @@ Each section has specific fields to fill out:
   - Example
   ```yaml
   personal_information:
-    name: "Jane"
-    surname: "Doe"
-    date_of_birth: "01/01/1990"
-    country: "USA"
-    city: "New York"
+    name: "Joseph"
+    surname: "Claire"
+    date_of_birth: "01/01/1997"
+    country: "India"
+    city: "Mumbai"
     address: "123 Main St"
-    phone_prefix: "+1"
-    phone: "5551234567"
-    email: "jane.doe@example.com"
-    github: "https://github.com/janedoe"
-    linkedin: "https://www.linkedin.com/in/janedoe/"
+    phone_prefix: "+91"
+    phone: "ph no"
+    email: "#"-------------------- give your email
+    github: "https://github.com/#" ----------------  copy from github url
+    linkedin: "https://www.linkedin.com/in/#/" -------- copy from linkedin url
   ```
 
 - `education_details:`
@@ -311,10 +286,10 @@ Each section has specific fields to fill out:
     projects:
       - name: "Weather App"
         description: "A web application that provides real-time weather information using a third-party API."
-        link: "https://github.com/janedoe/weather-app"
+        link: "https: #"
       - name: "Task Manager"
         description: "A task management tool with features for tracking and prioritizing tasks."
-        link: "https://github.com/janedoe/task-manager"
+        link: "https://github.com/#"
     ```
 
 - `achievements:`
@@ -352,8 +327,8 @@ Each section has specific fields to fill out:
   languages:
     - language: "English"
       proficiency: "Fluent"
-    - language: "Spanish"
-      proficiency: "Intermediate"
+    - language: "Hindi"
+      proficiency: "Fluent"
   ```
 
 - `interests:`
@@ -514,13 +489,13 @@ TODO ):
 - **Invalid YAML:** Check your YAML files for syntax errors . Try to use external YAML validators e.g. https://www.yamllint.com/
 - **OpenAI endpoint isues**: Try to check possible limits\blocking at their side 
   
-If you encounter any issues, you can open an issue on [GitHub](https://github.com/feder-cr/linkedIn_auto_jobs_applier_with_AI/issues).
+If you encounter any issues, you can open an issue ping me on my mail id.
   Please add valuable details to the subject and to the description. If you need new feature then please reflect this.  
   I'll be more than happy to assist you!
 
 ## Conclusion
 
-LinkedIn_AIHawk provides a significant advantage in the modern job market by automating and enhancing the job application process. With features like dynamic resume generation and AI-powered personalization, it offers unparalleled flexibility and efficiency. Whether you're a job seeker aiming to maximize your chances of landing a job, a recruiter looking to streamline application submissions, or a career advisor seeking to offer better services, LinkedIn_AIHawk is an invaluable resource. By leveraging cutting-edge automation and artificial intelligence, this tool not only saves time but also significantly increases the effectiveness and quality of job applications in today's competitive landscape.
+LinkedInAuto provides a significant advantage in the modern job market by automating and enhancing the job application process. With features like dynamic resume generation and AI-powered personalization, it offers unparalleled flexibility and efficiency. Whether you're a job seeker aiming to maximize your chances of landing a job, a recruiter looking to streamline application submissions, or a career advisor seeking to offer better services, LinkedInAuto is an invaluable resource. By leveraging cutting-edge automation and artificial intelligence, this tool not only saves time but also significantly increases the effectiveness and quality of job applications in today's competitive landscape.
 
 ## Contributors
 
@@ -534,4 +509,4 @@ LinkedIn_AIHawk is still in beta, and your feedback, suggestions, and contributi
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
-LinkedIn_AIHawk is developed for educational purposes only. The creator does not assume any responsibility for its use. Users should ensure they comply with LinkedIn's terms of service, any applicable laws and regulations, and ethical considerations when using this tool. The use of automated tools for job applications may have implications on user accounts, and caution is advised.
+LinkedInAuto is developed for educational purposes only. The creator does not assume any responsibility for its use. Users should ensure they comply with LinkedIn's terms of service, any applicable laws and regulations, and ethical considerations when using this tool. The use of automated tools for job applications may have implications on user accounts, and caution is advised.

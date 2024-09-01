@@ -17,5 +17,7 @@ python-dotenv.py
 login_info.py
 
 # Ignore secrets file
-data_folder/secrets.yaml
 secrets.yaml
+
+data_folder/secrets.yaml
+C:\Users\john1\OneDrive\Desktop\LinkedinAuto\data_folder\secrets.yaml

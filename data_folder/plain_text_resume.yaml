@@ -106,7 +106,7 @@ availability:
   notice_period: "immediately"
 
 salary_expectations:
-  salary_range_usd: "800000"
+  salary_range_inr: "800000"
 
 self_identification:
   gender: "Male"
