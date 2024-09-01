@@ -1,0 +1,13 @@
+prefix=C:/Users/john1/OneDrive/Desktop/LinkedinAuto/venv/Library
+exec_prefix=C:/Users/john1/OneDrive/Desktop/LinkedinAuto/venv/Library
+libdir=C:/Users/john1/OneDrive/Desktop/LinkedinAuto/venv/Library/lib
+sharedlibdir=C:/Users/john1/OneDrive/Desktop/LinkedinAuto/venv/Library/lib
+includedir=C:/Users/john1/OneDrive/Desktop/LinkedinAuto/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

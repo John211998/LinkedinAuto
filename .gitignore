@@ -11,3 +11,11 @@ generated_cv*
 .vscode
 chrome_profile
 answers.json
+.env
+python-dotenv
+python-dotenv.py
+login_info.py
+
+# Ignore secrets file
+data_folder/secrets.yaml
+secrets.yaml
