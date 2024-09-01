@@ -17,14 +17,16 @@ education_details:
     gpa: "5/10"
     graduation_year: "2020"
     field_of_study: "Electronic and Communication Engineering"
-    exam: "None"
+    exam:
+      ECE: "B"
 
   - degree: "Mastery in Data Science"
     university: "Skillovilla, Bangalore"
     gpa: "9/10"
     graduation_year: "2024"
     field_of_study: "Data Science"
-    exam: "Certified Data Science Examination"
+    exam:
+      Data Scientist Exam: "A+"
 
 experience_details:
   - position: "Data Scientist"
@@ -106,7 +108,7 @@ availability:
   notice_period: "immediately"
 
 salary_expectations:
-  salary_range_inr: "800000"
+  salary_range_usd: "10000 - 15000"
 
 self_identification:
   gender: "Male"
@@ -116,14 +118,14 @@ self_identification:
   ethnicity: "Asian"
 
 legal_authorization:
-  india_work_authorization: "Yes"
-  global_work_authorization: "No"
-  requires_visa_for_overseas: "Yes"
-  requires_sponsorship_for_overseas: "Yes"
-  requires_visa_for_india: "No"
-  legally_allowed_to_work_in_india: "Yes"
-  legally_allowed_to_work_globally: "No"
-  requires_sponsorship_for_india: "No"
+  eu_work_authorization: "Yes"
+  us_work_authorization: "No"
+  requires_us_visa: "Yes"
+  requires_us_sponsorship: "Yes"
+  requires_eu_visa: "No"
+  legally_allowed_to_work_in_eu: "Yes"
+  legally_allowed_to_work_in_us: "No"
+  requires_eu_sponsorship: "No"
 
 
 work_preferences:
